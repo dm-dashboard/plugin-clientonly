@@ -1,0 +1,48 @@
+/************************************************************************************/
+/*                               iFrame                                             */
+/************************************************************************************/
+
+.clientonly-iframe {
+    overflow:hidden;
+    width:100%;
+    height:100%;
+}
+/************************************************************************************/
+/*                               Youtube                                            */
+/************************************************************************************/
+.clientonly-youtube {
+    overflow:hidden;
+    width:100%;
+    height:100%;
+}
+
+/************************************************************************************/
+/*                               Image                                              */
+/************************************************************************************/
+
+div.clientonly-image {
+    overflow:hidden;
+    width:100%;
+    height:100%;
+}
+
+img.clientonly-image {
+    overflow:hidden;
+}
+
+img.clientonly-image-stretch {
+    overflow:hidden;
+    width:100%;
+    height:100%;
+}
+
+img.clientonly-image-width {
+    overflow:hidden;
+    width:100%;
+}
+
+img.clientonly-image-height {
+    overflow:hidden;
+    height:100%;
+}
+

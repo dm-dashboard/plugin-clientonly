@@ -1,0 +1,40 @@
+{
+    "name": "edp-clientonly",
+    "version": "0.0.1",
+    "description": "A collection of client only widgets, i.e. no server side components",
+    "author": {
+        "name": "Duane McKibbin <duane.mckibbin@gmail.com>"
+    },
+    "mean": "0.3.3",
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.4.x"
+    },
+    "dependencies": {},
+    "license": "MIT",
+    "dashboard" : {
+        "displayName": "Client Only Widgets",
+        "enabled" : true,
+        "module": "server/clientonly",
+        "widgets" : [
+            {
+                "name" : "iFrame",
+                "description" : "Load an iFrame with an external site",
+                "directive" : "clientonly-iframe"
+            },
+            {
+                "name" : "Youtube",
+                "description" : "Load a fullscreen auto-playing YouTube player",
+                "directive" : "clientonly-youtube"
+            },
+            {
+                "name" : "Image",
+                "description" : "Display an image fullscreen",
+                "directive" : "clientonly-image"
+            }
+        ],
+        "defaultSettings" : {
+
+        }
+    }
+}

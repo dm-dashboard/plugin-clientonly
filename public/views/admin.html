@@ -1,0 +1,34 @@
+<div class="container-fluid">
+    <h3>Client Only Plugin</h3>
+    This plugin has no server side config. Configure each widget as you add it to the dashboard.
+
+    <h4>iFrame</h4>
+    <code>
+        {<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"url" : "http://pathToUrl/" //Required<br/>
+        }
+    </code>
+    <hr/>
+    <h4>Youtube</h4>
+    <code>
+        {<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;//Unique ID used by Youtube<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"videoId" : "flkwejfiv",<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;//Url to video on YouTube. Either the ID or the Url is required. If both are supplied, the ID is used<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"videoUrl" : "http://pathToUrl/",<br/>
+        <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"loop" : true|false, //Optional, defaults to false<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"autoplay" : true|false //Optional, defaults to true<br/>
+        }
+    </code>
+    <hr/>
+    <h4>Image</h4>
+    <code>
+        {<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"url" : "pathToAnImage",<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"stretchBoth":true|false, //Stretch to fill screen, aspect ratio will not be respected<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"stretchWidth":true|false, //Stretch width to fill screen, aspect ratio will be respected<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;"stretchHeight":true|false, //Stretch height to fill screen, aspect ratio will be respected<br/>
+        }
+    </code>
+</div>
